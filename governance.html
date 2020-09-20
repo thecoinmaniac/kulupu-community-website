@@ -33,7 +33,15 @@
     </head>
 
     <body>
-      
+      <div id="overlay">
+        <h1 style="color: #17b06b;">Coming Soon...</h1>
+        <a href="index.html"
+            title="Download Theme"
+            class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">
+            <span><i class="fas fa-arrow-circle-left"></i></span>
+            Go back
+        </a>
+      </div>
       <div class="navbar-dark text-white">
         <div class="container">
           <nav class="navbar px-0 navbar-expand-lg navbar-dark">
@@ -49,6 +57,7 @@
                 <a target="_blank" href="https://polkadot.js.org/apps" class="p-3 text-decoration-none text-light">Wallet</a>
                 <a target="_blank" href="https://telemetry.polkadot.io/#list/Kulupu" class="p-3 text-decoration-none text-light">Network Stats</a>
                 <a target="_blank" href="https://kulupu.subscan.io/" class="p-3 text-decoration-none text-light">Explorer</a>
+                <a href="governance.html" class="p-3 text-decoration-none text-light">Governance</a>
               </div>
             </div>
           </nav>
@@ -79,10 +88,12 @@
                     <th>Votes</th>
                   </tr>
                 </thead>
-                <tbody>
+               <!--  <tbody id="council-members-table">
                   <tr>
                     <th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 80 80" preserveAspectRatio="xMidYMid meet"><path fill="#4c4c4c" d="M23 14.5L31.5 6L40 14.5L31.5 23ZM48.5 6L57 14.5L48.5 23L40 14.5ZM57 65.5L48.5 74L40 65.5L48.5 57ZM31.5 74L23 65.5L31.5 57L40 65.5ZM6 31.5L14.5 23L23 31.5L14.5 40ZM65.5 23L74 31.5L65.5 40L57 31.5ZM74 48.5L65.5 57L57 48.5L65.5 40ZM14.5 57L6 48.5L14.5 40L23 48.5Z"></path><path fill="#b2e5c8" d="M23 23L6 23L6 14.5ZM57 23L57 6L65.5 6ZM57 57L74 57L74 65.5ZM23 57L23 74L14.5 74Z"></path><path fill="#66cc91" d="M23 23L40 23L40 34.9L29.8 29.8L34.9 40L23 40ZM57 23L57 40L45.1 40L50.2 29.8L40 34.9L40 23ZM57 57L40 57L40 45.1L50.2 50.2L45.1 40L57 40ZM23 57L23 40L34.9 40L29.8 50.2L40 45.1L40 57Z"></path></svg></th>
-                    <td>Wei</td>
+                    <td>Wei 
+                      
+                    </td>
                     <td>486,748<span style="color: #a1a1a1;">.691</span><span style="color: #17b06b;" >KLP</span></td>
                     <td>19</td>
                   </tr>
@@ -100,7 +111,7 @@
                     <td>486,748<span style="color: #a1a1a1;">.691</span><span style="color: #17b06b;" >KLP</span></td>
                     <td>15</td>
                   </tr>
-                </tbody>
+                </tbody> -->
               </table>
 
               <h3 style="color: #17b06b; margin-top: 25px;">Runners-up</h3>
@@ -113,14 +124,14 @@
                     <th>Votes</th>
                   </tr>
                 </thead>
-                <tbody>
+                <!-- <tbody>
                   <tr>
                     <th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 80 80" preserveAspectRatio="xMidYMid meet"><path fill="#4c4c4c" d="M23 14.5L31.5 6L40 14.5L31.5 23ZM48.5 6L57 14.5L48.5 23L40 14.5ZM57 65.5L48.5 74L40 65.5L48.5 57ZM31.5 74L23 65.5L31.5 57L40 65.5ZM6 31.5L14.5 23L23 31.5L14.5 40ZM65.5 23L74 31.5L65.5 40L57 31.5ZM74 48.5L65.5 57L57 48.5L65.5 40ZM14.5 57L6 48.5L14.5 40L23 48.5Z"></path><path fill="#b2e5c8" d="M23 23L6 23L6 14.5ZM57 23L57 6L65.5 6ZM57 57L74 57L74 65.5ZM23 57L23 74L14.5 74Z"></path><path fill="#66cc91" d="M23 23L40 23L40 34.9L29.8 29.8L34.9 40L23 40ZM57 23L57 40L45.1 40L50.2 29.8L40 34.9L40 23ZM57 57L40 57L40 45.1L50.2 50.2L45.1 40L57 40ZM23 57L23 40L34.9 40L29.8 50.2L40 45.1L40 57Z"></path></svg></th>
                     <td>Wei</td>
                     <td>486,748<span style="color: #a1a1a1;">.691</span><span style="color: #17b06b;" >KLP</span></td>
                     <td>19</td>
                   </tr>
-                </tbody>
+                </tbody> -->
               </table>
 
               <h3 style="color: #17b06b; margin-top: 25px;">Candidates</h3>
@@ -133,14 +144,14 @@
                     <th>Votes</th>
                   </tr>
                 </thead>
-                <tbody>
+                <!-- <tbody>
                   <tr>
                     <th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 80 80" preserveAspectRatio="xMidYMid meet"><path fill="#4c4c4c" d="M23 14.5L31.5 6L40 14.5L31.5 23ZM48.5 6L57 14.5L48.5 23L40 14.5ZM57 65.5L48.5 74L40 65.5L48.5 57ZM31.5 74L23 65.5L31.5 57L40 65.5ZM6 31.5L14.5 23L23 31.5L14.5 40ZM65.5 23L74 31.5L65.5 40L57 31.5ZM74 48.5L65.5 57L57 48.5L65.5 40ZM14.5 57L6 48.5L14.5 40L23 48.5Z"></path><path fill="#b2e5c8" d="M23 23L6 23L6 14.5ZM57 23L57 6L65.5 6ZM57 57L74 57L74 65.5ZM23 57L23 74L14.5 74Z"></path><path fill="#66cc91" d="M23 23L40 23L40 34.9L29.8 29.8L34.9 40L23 40ZM57 23L57 40L45.1 40L50.2 29.8L40 34.9L40 23ZM57 57L40 57L40 45.1L50.2 50.2L45.1 40L57 40ZM23 57L23 40L34.9 40L29.8 50.2L40 45.1L40 57Z"></path></svg></th>
                     <td>Wei</td>
                     <td>486,748<span style="color: #a1a1a1;">.691</span><span style="color: #17b06b;" >KLP</span></td>
                     <td>19</td>
                   </tr>
-                </tbody>
+                </tbody> -->
               </table>
             </div>
 
@@ -156,7 +167,7 @@
                     <th>Bond</th>
                   </tr>
                 </thead>
-                <tbody>
+               <!--  <tbody>
                   <tr>
                     <th scope="row">2</th>
                     <td>
@@ -173,7 +184,7 @@
                     <td>20<span style="color: #a1a1a1;">.000</span><span style="color: #17b06b;" >KLP</td>
                     <td>20<span style="color: #a1a1a1;">.000</span><span style="color: #17b06b;" >KLP</td>
                   </tr>
-                </tbody>
+                </tbody> -->
               </table>
             </div>
 
@@ -190,7 +201,7 @@
                     <th>votes</th>
                   </tr>
                 </thead>
-                <tbody>
+                <!-- <tbody>
                   <tr>
                     <th scope="row">2</th>
                     <td>
@@ -213,7 +224,7 @@
                       3.831M KLP
                     </td>
                   </tr>
-                </tbody>
+                </tbody> -->
               </table>
 
               <h3 style="color: #17b06b; margin-top: 25px;">Proposals</h3>
@@ -227,7 +238,7 @@
                     <th></th>
                   </tr>
                 </thead>
-                <tbody>
+                <!-- <tbody>
                   <tr>
                     <th scope="row">2</th>
                     <td>
@@ -242,7 +253,7 @@
                     <td>20<span style="color: #a1a1a1;">.000</span><span style="color: #17b06b;" >KLP</td>
                     <td>Seconds(15)</td>
                   </tr>
-                </tbody>
+                </tbody> -->
               </table>
             </div>
           </div>
@@ -257,8 +268,9 @@
 
 
 
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="js/script.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
 
