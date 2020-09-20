@@ -6,9 +6,14 @@ $(document).ready(function () {
     $.get('https://kulupu-council.herokuapp.com/members', function(response) {
         console.log(response);
         response.forEach((element, index) => {
-            var template = `<div style="text-align: center; margin-top: 50px;" class="col-sm-3">
+            var template = `<div style="text-align: center; margin-top: 50px;" class="col-sm-3 single-member">
             ${images[index]}
             <h5 class="council-title">${element.info.display.Raw}</h5>
+            <p>${element.info.legal.Raw != null ? `<i class="fas fa-user green-logo"></i> ${element.info.legal.Raw}` : `` }</p>
+            <p>${element.info.twitter.Raw != null ? `<i class="fab fa-twitter green-logo"></i> ${element.info.twitter.Raw}` : `` }</p>
+            <p>${element.info.email.Raw != null ? `<i class="fas fa-envelope-open-text green-logo"></i> ${element.info.email.Raw}` : `` }</p>
+            <p>${element.info.web.Raw != null ? `<i class="fas fa-link green-logo"></i> ${element.info.web.Raw}` : `` }</p>
+            <p>${element.info.riot.Raw != null ? `<i class="fas fa-comment green-logo"></i> ${element.info.riot.Raw}` : `` }</p>
             <p class="council-description">2eeTYXTedvyzCaP9sLJ1oExdqHKLHburZR5endQW9VBbShBU</p>
           </div>`
             $('.spinner-border').remove()
